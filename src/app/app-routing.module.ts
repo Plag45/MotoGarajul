@@ -1,14 +1,14 @@
-import { ContactComponent } from './contact/contact.component';
-import { HomeComponent } from './home/home.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HeaderComponent } from './header/header.component';
-
+import { HomeComponent } from './home/home.component';
+import { ContactComponent } from './contact/contact.component';
+import { ShopComponent } from './shop/shop.component';
 
 const routes: Routes = [
-  {path: '', redirectTo: 'home', component: HomeComponent},
-  {path:'home' , component: HomeComponent},
-  {path: 'contact', component: ContactComponent }
+  {path:'', component:HomeComponent},
+  {path:'home', component:HomeComponent},
+  {path:'contact', component:ContactComponent},
+  {path:'shop',component:ShopComponent}
 ];
 
 @NgModule({
@@ -16,4 +16,3 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-

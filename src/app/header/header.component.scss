@@ -18,7 +18,7 @@ h1{
   float: center;
   color: rgb(19, 204, 145);
  top:-0.75%;
- left: 43%;
+ left: 41.5%;
  position: fixed;
 }
 
@@ -49,7 +49,7 @@ transition: 0.5s;
   background-size: contain;
   float: center;
   top: 15px ;
-  left: 1199px;
+  left: 1160px;
   position: relative;
   width: 36px;
   height: 35px;
@@ -60,7 +60,7 @@ transition: 0.5s;
 }
 .Car_gif{
   float: center;
-  top: 2%;
+  top: 1.8%;
   left:55.5%;
   position: fixed;
   width: 36px;
@@ -76,16 +76,16 @@ html { font-size: 18px; }
 
 label .menu {
   position: absolute;
-  right: 1430px;
+  right: 1380px;
   top: 10px;
   z-index: 100;
   width: 50px;
   height: 50px;
-  background: rgb(67, 135, 40);
+  background: rgb(99, 232, 46);
   border-radius: 50% 50% 50% 50%;
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
-  box-shadow: rgba(67, 135, 40, 0.899);
+  box-shadow: rgba(83, 223, 27, 0.899);
   cursor: pointer;
 
 }
@@ -96,7 +96,7 @@ label .hamburger {
   left: 10px;
   width: 30px;
   height: 2px;
-  background: #e3e769;
+  background: #1d8207;
   display: block;
   -webkit-transform-origin: center;
   transform-origin: center;
@@ -112,7 +112,7 @@ label .hamburger:after, label .hamburger:before {
   display: block;
   width: 100%;
   height: 100%;
-  background: #e3e769;
+  background: #1d8207;
 }
 
 label .hamburger:before { top: -10px; }
@@ -122,7 +122,7 @@ label .hamburger:after { bottom: -10px; }
 label input { display: none; }
 
 label input:checked + .menu {
-  box-shadow:  0 0 0 8vw rgb(64, 115, 44), 0 0 0 8vh rgb(224, 240, 47);
+  box-shadow:  0 0 0 8vw rgb(31, 148, 22), 0 0 0 8vh rgb(79, 217, 11);
   border-radius: 20;
 
 }
@@ -152,7 +152,7 @@ label input:checked + .menu + ul { opacity: 1; }
 label ul {
   z-index: 200;
   position: absolute;
-  top: 160%;
+  top: 130%;
   left:35px;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -161,12 +161,10 @@ label ul {
   transition: .25s 0s ease-in-out;
 }
 
-.Pagini_button{
+label a {
   margin-bottom: 1em;
   display: block;
-  color: #38b812;
-  text-decoration: none;
-  font-size: 16px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #9ae716;
+  text-decoration: none;
 
 }
