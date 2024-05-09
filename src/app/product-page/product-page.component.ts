@@ -10,7 +10,7 @@ export class ProductPageComponent {
   constructor(private router: Router) {}
 
   products = [
-    { id: 1, name: 'Product 1' },
+    { id: 1, name: 'Schimbare Ulei' },
     { id: 2, name: 'Product 2' },
     { id: 3, name: 'Product 3' }
   ];
