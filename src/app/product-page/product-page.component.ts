@@ -11,8 +11,9 @@ export class ProductPageComponent {
 
   products = [
     { id: 1, name: 'Schimbare Ulei' },
-    { id: 2, name: 'Product 2' },
-    { id: 3, name: 'Product 3' }
+    { id: 2, name: 'Schimbare Filtre Aer' },
+    { id: 3, name: 'Revizie Motor' },
+    { id: 4, name: 'Segmentare' }
   ];
 
   selectProduct(productId: number) {
